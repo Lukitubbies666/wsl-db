@@ -15,7 +15,7 @@ import Meadow from '../images/stadium/meadowpark.png'
 import Bescot from '../images/stadium/bescot.jpg'
 import StAndrews from '../images/stadium/StAndrews.jpg'
 import Broadfield from '../images/stadium/pplpension.jpg'
-import Farley from '../images/stadium/farley way.webp'
+import kingpower from '../images/stadium/kingpower.jpg'
 import Kingsmeadow from '../images/stadium/kingsmeadow.jpg'
 import Walton from '../images/stadium/walton.jpg'
 import Academy from '../images/stadium/academycity.jfif'
@@ -41,23 +41,23 @@ const placeholderwestham="inline-block overflow-hidden duration-300 transform ro
 
 
 
-const stadiumobject="object-cover w-full h-48 object-center"
+const stadiumobject="object-cover w-full h-48 sm:h-32 object-center"
 const stadiumplaceholder="flex flex-col h-full"
 const crestclubplaceholder="rounded-full bg-white border-solid border-white border-2 -mt-8 h-28 w-28 object-contain"
 const crestclubmiddle="flex justify-center -mt-9"
 
 const spacetitle="p-2"
-const texttitleputih="mb-2 font-semibold leading-5 text-xl text-center text-gray-50"
-const textsubtitleputih="text-sm text-gray-50 text-center"
-const texttitlepurple="mb-2 font-semibold leading-5 text-xl text-blue-gray-800 text-center"
-const texttitlenavy="mb-2 font-semibold leading-5 text-xl text-center text-blue-gray-800"
-const textsubtitlenavy="text-sm text-gray-50 text-center text-blue-gray-900"
-const textsubtitlepurple="text-sm text-center text-blue-gray-700"
-const texttitlelightblue="mb-2 font-semibold leading-5 text-xl text-cyan-200 text-center"
-const textsubtitlelightblue="text-sm text-center text-cyan-300"
+const texttitleputih="mb-2 font-semibold leading-5 text-xl text-center text-gray-50 sm:text-lg"
+const textsubtitleputih="text-tiny text-gray-50 text-center sm:text-sm"
+const texttitlepurple="mb-2 font-semibold leading-5 text-xl text-blue-gray-800 text-center sm:text-lg"
+const texttitlenavy="mb-2 font-semibold leading-5 text-xl text-center text-blue-gray-800 sm:text-lg"
+const textsubtitlenavy="text-tiny text-gray-50 text-center text-blue-gray-900 sm:text-sm"
+const textsubtitlepurple="text-tiny text-center text-blue-gray-700 sm:text-sm"
+const texttitlelightblue="mb-2 font-semibold leading-5 text-xl text-cyan-200 text-center sm:text-lg"
+const textsubtitlelightblue="text-tiny text-center text-cyan-300 sm:text-sm"
 
 const posisitombol="text-center items-center"
-const tombolhome="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+const tombolhome="inline-flex items-center justify-center w-36 h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
 
 export const Clubs = () => {
     return (
@@ -251,7 +251,7 @@ export const Clubs = () => {
             >
               <div className={stadiumplaceholder}>
                 <img
-                  src={Farley}
+                  src={kingpower}
                   className={stadiumobject}
                   alt=""
                 />
@@ -268,7 +268,7 @@ export const Clubs = () => {
                       Leicester City
                     </h6>
                     <p className={textsubtitleputih}>
-                      Farley Way Stadium
+                      King Power Stadium
                     </p>
                   </div>
                 </div>
@@ -358,7 +358,7 @@ export const Clubs = () => {
                       Reading
                     </h6>
                     <p className={textsubtitleputih}>
-                      Madejski Stadium
+                      Select Car Leasing Stadium
                     </p>
                   </div>
                 </div>
@@ -418,7 +418,7 @@ export const Clubs = () => {
                       West Ham United
                     </h6>
                     <p className={textsubtitlelightblue}>
-                      Victoria Road
+                      Chigwell Construction Stadium
                     </p>
                   </div>
                 </div>

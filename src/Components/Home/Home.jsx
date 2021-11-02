@@ -34,8 +34,7 @@ export const Home = () => {
         </h2>
 {/* Caption kanan         */}
         <p className="text-gray-700 lg:text-sm lg:max-w-md">
-          Thanks for visiting my little project!
-          I'm going to keep this page update!
+          
         </p>
       </div>
 
@@ -51,7 +50,7 @@ export const Home = () => {
               <p className="mb-4 text-lg font-bold text-gray-100">
                 Player Stats
               </p>
-              <p className="text-sm tracking-wide text-gray-300">
+              <p className="text-tiny tracking-wide text-gray-300">
                 Numbers collected and sorted by each player that perform in WSL this season.
               </p>
             </div>
@@ -68,7 +67,7 @@ export const Home = () => {
               <p className="mb-4 text-lg font-bold text-gray-100">
                 Create your Starting XI
               </p>
-              <p className="text-sm tracking-wide text-gray-300">
+              <p className="text-tiny tracking-wide text-gray-300">
                 {/* Do you have an idea for your WSL Team of The Season? Or maybe just
                 want to messing around with your fantasy starting XI? Go ahead and do it! */}
                 (Coming soon)

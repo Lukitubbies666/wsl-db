@@ -16,32 +16,32 @@ export default function ManUtd ({ player }) {
 
     // BEDA TIAP KLUB
     const placeholder="flex items-center justify-between px-2 py-2 bg-red-700"
-    const playernumber="text-gray-200 font-medium text-base text-gray-50 lg:text-xs sm:text-xs"
-    const playername="text-gray-200 font-bold text-base text-gray-50 lg:text-sm"
-
+    const playernumber="text-gray-200 font-medium text-tiny text-gray-50 sm:text-sm"
+    const playername="text-gray-200 font-bold text-tiny text-gray-50 md:text-base sm:text-sm"
+  
     // MODALS
     const layoutcontent="flex flex-col justify-between p-8  border rounded shadow-sm sm:pr-8"
     const tombolclose="text-lg font-bold focus:outline-none"
   
     const positionpopupmodal="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
     const popupmodal="grid max-w-md bg-white gap-10 row-gap-5 sm:row-gap-10 lg:grid-cols-1 sm:mx-auto"
-    const kolombagianatas="flex flex-wrap-reverse items-center justify-between border-b sm:pb-8 mb-2 px-8"
-    const textfirstname="text-base font-bold tracking-wider "
-    const textlastname=" font-extrabold uppercase lg:text-3xl sm:text-xl" 
-    const lingkaranfoto="flex items-center justify-center w-20 h-20 rounded-full bg-white"
+    const kolombagianatas="flex flex-wrap-reverse items-center justify-between md:justify-evenly md:justify-start border-b mb-2 px-8"
+    const textfirstname="text-base font-bold tracking-wider sm:text-xl md:text-2xl "
+    const textlastname=" font-extrabold uppercase lg:text-3xl sm:text-xl md:text-2xl" 
+    const lingkaranfoto="flex items-center justify-center w-20 h-20 rounded-full bg-white sm:pb-4 lg:pb-4 md:pb-4"
     const gambar="rounded-full border-solid border-white object-contain"
   
-    const kolomstatsgede="grid grid-cols-2 row-gap-8 sm:grid-cols-4"
+    const kolomstatsgede="grid grid-cols-4 row-gap-8"
     const textcenter="text-center"
     const angkastatsgede="text-1xl font-bold text-deep-purple-accent-400"
-    const kategoristatsgede="font-bold text-sm"
+    const kategoristatsgede="font-bold sm:text-sm lg:text-tiny md:text-tiny"
   
-    const kolomstatskecil="grid rounded lg:col-span-3 sm:grid-cols-2"
+    const kolomstatskecil="grid grid-cols-2 rounded lg:col-span-3"
     const kolomstatskecilkirikanan="flex flex-col p-2"
-    const textkategoristatskecil="text-base font-semibold text-gray-800 sm:text-xs"
-    const textstatskecil="text-base font-medium text-gray-600 sm:text-xs"
+    const textkategoristatskecil="text-base font-semibold text-gray-800 lg:text-tiny md:text-tiny sm:text-xs"
+    const textstatskecil="text-base font-medium text-gray-600 lg:text-tiny md:text-tiny sm:text-xs"
     const fbrefbutton="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
-   
+     
   return (
     <div>
       <button 
@@ -61,7 +61,7 @@ export default function ManUtd ({ player }) {
           <div className={placeholder}>
             <h1 className={playernumber}>{player.number}</h1>
             <h1 className={playername}>{player.firstname} {player.lastname}</h1>
-            <FlagIcon code={player.country} size={24} />
+            <FlagIcon code={player.country} size={16} />
           </div>
         </div>
       </button>
@@ -250,7 +250,7 @@ export default function ManUtd ({ player }) {
 
                       <div className="flex space-x-2">
                         <p className={textkategoristatskecil}>
-                            Successful Pressure:
+                            Success Pressure:
                         </p>
                         <p className={textstatskecil}>
                             {player.successpress}%

@@ -19,11 +19,11 @@ export default class Leicester extends Component {
 
   Styling = {
 		containerpage: "px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20",
-		title: "font-sans text-4xl font-bold leading-tight text-gray-900 sm:text-4xl sm:text-center",
-    containertitle:"max-w-xl mb-2 pb-8 sm:mx-auto",
-		subTitle: "max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none md:mb-6 group",
+		title: "font-sans text-4xl text-center font-bold leading-tight text-gray-900 sm:text-2xl",
+    containertitle:"max-w-xl mb-2 pb-8 lg:mx-auto sm:mx-auto",
+		subTitle: "max-w-lg mb-5 font-sans text-2xl font-bold tracking-tight text-gray-900 sm:text-lg m:text-xl sm:leading-none md:mb-6 group",
     containersubtitle: "flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8",
-    playershown: "grid gap-7 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-4 sm:grid-cols-2"
+    playershown: "grid gap-7 row-gap-5 mb-8 lg:grid-cols-4 md:grid-cols-2 sm:row-gap-4 sm:grid-cols-2"
 	};
 
   componentDidMount() {

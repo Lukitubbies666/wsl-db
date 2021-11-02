@@ -2,6 +2,27 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   theme: {
     extend: {
+      fontSize: {
+        'xs': '.5rem',
+        'sm': '.6rem',
+        'tiny': '.75rem',
+         'base': '1rem',
+         'lg': '1.125rem',
+         'xl': '1.25rem',
+         '2xl': '1.5rem',
+        '3xl': '1.875rem',
+        '4xl': '2.25rem',
+         '5xl': '3rem',
+         '6xl': '4rem',
+        '7xl': '5rem',
+       },
+      screens: {
+        'sm': {'min': '320px', 'max': '767px'},
+        'md': {'min': '768px', 'max': '1023px'},
+        'lg': {'min': '1024px', 'max': '1440px'},
+        'xl': {'min': '1441px', 'max': '1535px'},
+        '2xl': {'min': '1536px'},
+      },
       fontFamily: {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
