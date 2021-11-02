@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d88d837.chunk.css",
-    "main.js": "/static/js/main.c310bfc6.chunk.js",
-    "main.js.map": "/static/js/main.c310bfc6.chunk.js.map",
+    "main.css": "/static/css/main.0dfb0051.chunk.css",
+    "main.js": "/static/js/main.b7d13ae4.chunk.js",
+    "main.js.map": "/static/js/main.b7d13ae4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.84c5f20d.js",
     "runtime-main.js.map": "/static/js/runtime-main.84c5f20d.js.map",
     "static/js/2.a784e9c9.chunk.js": "/static/js/2.a784e9c9.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a42ca11e.chunk.js": "/static/js/3.a42ca11e.chunk.js",
     "static/js/3.a42ca11e.chunk.js.map": "/static/js/3.a42ca11e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2d88d837.chunk.css.map": "/static/css/main.2d88d837.chunk.css.map",
+    "static/css/main.0dfb0051.chunk.css.map": "/static/css/main.0dfb0051.chunk.css.map",
     "static/js/2.a784e9c9.chunk.js.LICENSE.txt": "/static/js/2.a784e9c9.chunk.js.LICENSE.txt",
     "static/media/StAndrews.3d0a3ab5.jpg": "/static/media/StAndrews.3d0a3ab5.jpg",
     "static/media/academycity.e2125788.jfif": "/static/media/academycity.e2125788.jfif",
@@ -21,8 +21,9 @@
     "static/media/brighton.8396b262.png": "/static/media/brighton.8396b262.png",
     "static/media/chelsea.ec2a4b3e.png": "/static/media/chelsea.ec2a4b3e.png",
     "static/media/everton.34692f5d.png": "/static/media/everton.34692f5d.png",
-    "static/media/farley way.a540653b.webp": "/static/media/farley way.a540653b.webp",
+    "static/media/kingpower.537563f5.jpg": "/static/media/kingpower.537563f5.jpg",
     "static/media/kingsmeadow.5fb6aadc.jpg": "/static/media/kingsmeadow.5fb6aadc.jpg",
+    "static/media/kofiicon.ce5c2533.svg": "/static/media/kofiicon.ce5c2533.svg",
     "static/media/landing1.bc9501dd.jpg": "/static/media/landing1.bc9501dd.jpg",
     "static/media/landing2.9c3d1cb0.jpg": "/static/media/landing2.9c3d1cb0.jpg",
     "static/media/leicester.790c3a97.png": "/static/media/leicester.790c3a97.png",
@@ -42,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.84c5f20d.js",
     "static/js/2.a784e9c9.chunk.js",
-    "static/css/main.2d88d837.chunk.css",
-    "static/js/main.c310bfc6.chunk.js"
+    "static/css/main.0dfb0051.chunk.css",
+    "static/js/main.b7d13ae4.chunk.js"
   ]
 }
