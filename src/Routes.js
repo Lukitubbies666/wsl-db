@@ -15,6 +15,9 @@ import WestHam from './Pages/Team/WestHam';
 import Reading from './Pages/Team/Reading';
 import Leicester from './Pages/Team/Leicester';
 
+// import Roster from './containers/roster'
+
+
 import Footer from './Components/Footer'
 
 const Routes = () => {
@@ -35,6 +38,8 @@ const Routes = () => {
         <Route path="/clubs/leicester" exact component={Leicester} />
         <Route path="/clubs/westham" exact component={WestHam} />
         <Route path="/clubs/reading" exact component={Reading} />
+        {/* <Route path="/:team/roster" exact component={Roster} /> */}
+
       </Switch>
         <Footer/>
     </BrowserRouter>
